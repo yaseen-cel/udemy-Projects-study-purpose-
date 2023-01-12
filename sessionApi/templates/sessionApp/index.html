@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to my Shopping App</h1>
+    <br><br>
+    <a href="/addItem">Add Item</a><br>
+    <a href="/displayItems">Display Cart</a>
+    <br><br>
+    <b>Session Expiry time in seconds : {{request.session.get_expiry_age}}</b><br>
+    <b>Session Expiry time in date : {{request.session.get_expiry_date}}</b>
+
+</body>
+</html>
